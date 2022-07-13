@@ -1,0 +1,78 @@
+article{
+  font-size: small;
+  color: gray;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 60, 255);
+}
+
+i{
+  margin-right: 5px;
+}
+
+/* MACRO DIAGRAM ELEMENT */
+.page{
+  width: 210mm;
+  height: 297mm;
+  padding: 30mm 20mm 20mm 30mm;
+  margin: 15mm auto;
+  background-color: white;
+  box-shadow: -10px -10px grey;
+}
+
+.major-side{
+  width: 65%;
+  padding-right: 1rem;
+}
+
+.minor-side{
+  width: 35%;  
+}
+
+/* MAIN ELEMENTS */
+.introduce-persona{
+  display: flex;
+  height: 15%;
+}
+
+.name{
+  margin: 0 0 1rem;
+}
+
+.find-me{
+  display: inline-flex;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.find-me:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: lightgray;
+}
+
+.core{
+  display: flex;
+  height: 80%;
+}
+
+.bullet-point{
+  color: rgb(0, 60, 255);
+}
+
+.article-point{
+  color: black;
+}
+
+.info-retail{
+  display: flex;
+  flex-direction: column;
+}
+
+/* @page {
+  size: A4;
+  margin: 0;
+} */
