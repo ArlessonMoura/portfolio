@@ -1,3 +1,14 @@
+# Welcome to my portfolio :heart_eyes:
+Inicial state of build (Starts at 07/13. man at work :warning:)
+
+### This app consists in a bilingual single page application made with vanilla Javascript (ooh yeah, handmade old fashion code :satisfied:)...
+### My premises for choose the condictions to development this webpage are:
+- [ ] Enhancer/Show JavaScript and DOM manipulate skills through  hard work with pure JavaScript;
+- [ ] Enhancer/Show Semantic HTML;
+- [ ] Enhancer/Show good CSS skills whith responsivity, animations and UX/UI, through hard work no lib CSS.
+- [ ] Enhancer/Show best pratices for software development Clean Code.
+
+### This is the diagram of components relationship.
 ```mermaid
 graph LR
 
