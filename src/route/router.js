@@ -14,16 +14,14 @@ const handleLocation = async () => {
   document.getElementById("main-page").innerHTML = html;
 };
 
-const route = async (event) => {
+const route = (event) => {
   event = event || window.event;
   event.preventDefault(); 
   window.history.pushState({}, "", event.target.value);
-  await handleLocation();
+  handleLocation();
 };
 
 window.onpopstate = handleLocation;
 window.route = route;
-window.location.reload = handleLocation;
-window.location.reload(true)
 
 handleLocation();
