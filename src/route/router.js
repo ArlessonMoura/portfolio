@@ -23,5 +23,6 @@ const route = (event) => {
 
 window.onpopstate = handleLocation;
 window.route = route;
+window.location.reload() = handleLocation;
 
 handleLocation();
