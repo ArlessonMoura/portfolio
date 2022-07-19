@@ -23,7 +23,7 @@ const route = async (event) => {
 
 window.onpopstate = handleLocation;
 window.route = route;
-// window.location.reload = handleLocation;
-// window.location.reload(true)
+window.location.reload = handleLocation;
+window.location.reload(true)
 
 handleLocation();
