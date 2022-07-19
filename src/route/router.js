@@ -7,7 +7,7 @@ const routes = {
 
 const handleLocation = async () => {
   const path = window.location.pathname;
-  const route = !routes[path] ? routes['404'] : routes[path];
+  const route = routes[path] || routes[404];
   const cssModule = route.split(".")[0] + ".css";
   const html = await fetch(route).then((data) => data.text());
   document.getElementById("imported-stylesheet").href = cssModule;
