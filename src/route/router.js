@@ -1,7 +1,7 @@
 const routes = {
-  "/": "src/pages/home/home.html",
-  "/hello": "src/pages/landing-page-model/landing-page-model.html",
-  "/report": "src/pages/report-model/report-model.html",
+  "/portfolio/": "src/pages/home/home.html",
+  "/portfolio/hello": "src/pages/landing-page-model/landing-page-model.html",
+  "/portfolio/report": "src/pages/report-model/report-model.html",
 };
 
 const handleLocation = async () => {
