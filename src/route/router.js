@@ -1,9 +1,9 @@
 const routes = {
   "/": "src/pages/home/home.html",
-  "pt-br/hello": "src/pages/pt-br/pt-br-landing-page-model/pt-br-landing-page-model.html",
-  "pt-br/report": "src/pages/pt-br/pt-br-report-model/pt-br-report-model.html",
-  "en-us/hello": "src/pages/en-us/en-us-landing-page-model/en-us-landing-page-model.html",
-  "en-us/report": "src/pages/en-us/en-us-report-model/en-us-report-model.html",
+  "/pt-br/hello": "src/pages/pt-br/pt-br-landing-page-model/pt-br-landing-page-model.html",
+  "/pt-br/report": "src/pages/pt-br/pt-br-report-model/pt-br-report-model.html",
+  "/en-us/hello": "src/pages/en-us/en-us-landing-page-model/en-us-landing-page-model.html",
+  "/en-us/report": "src/pages/en-us/en-us-report-model/en-us-report-model.html",
 };
 
 const handleLocation = async () => {
