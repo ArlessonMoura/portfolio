@@ -6,6 +6,8 @@ const routes = {
   "/en-us/report": "src/pages/en-us/en-us-report-model/en-us-report-model.html",
 };
 
+// routes com /
+
 const handleLocation = async () => {
   const path = window.location.pathname;
   const route = routes[path];
