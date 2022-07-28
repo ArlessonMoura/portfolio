@@ -1,14 +1,11 @@
-*{
-  /* margin: 0;
+body{
+  margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box; */
+  box-sizing: border-box;
+  background-color: #6daca5;
   font-family: 'Merriweather', serif;  
   overflow-x: hidden;
-}
-
-body{
-  background-color: #6daca5;
 }
 
 /* HEADER ELEMENTS */
