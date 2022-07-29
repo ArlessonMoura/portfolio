@@ -17,15 +17,19 @@
   <body>
 
     <header>
-      <input id="home-menu" class="icons-shaker md-icons" type="image" src="src\assets\img\list-option.png" alt="home icon" value="/" onclick="route(); dynamicMenu()">
-    
-      <input id="hello" class="icons-shaker md-icons" type="image" src="src\assets\img\ux-ui.png" alt="go to website view" value="/hello" onclick="route(); dynamicMenu()">
+      <div class="set-square">
+        <nav>
+          <input id="home-menu" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\list-option.png" alt="home icon" value="/" onclick="route(); dynamicMenu()">
+      
+          <input id="hello" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\ux-ui.png" alt="go to website view" value="/hello" onclick="route(); dynamicMenu()">
+  
+          <input id="report" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\cv.png" alt="go to CV view" value="/report" onclick="route(); dynamicMenu()">
+        </nav>
 
-      <input id="report" class="icons-shaker md-icons" type="image" src="src\assets\img\cv.png" alt="go to CV view" value="/report" onclick="route(); dynamicMenu()">
+        <input class="icons-shaker dark-mode-btn md-icons" type="image" src="src\assets\img\night.png" alt="dark mode icon" onclick="darkMode()">
+      </div>
     
-      <input class="icons-shaker md-icons" type="image" src="src\assets\img\night.png" alt="dark mode icon" onclick="darkMode()">
-    
-      <i id="print" class="fa-solid fa-xl fa-print" title="print"></i>
+      <i id="print" class="fa-solid fa-xl fa-print icon-blur" title="print"></i>
     </header>
 
     <main id="main-page">
