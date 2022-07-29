@@ -15,31 +15,47 @@ const dynamicMenu = () => {
   const printBtn = document.getElementById("print");
   switch (path) {
     case "/":
-      homeBtn.style.visibility = "hidden";
-      reportBtn.style.visibility = "hidden";
-      webSiteBtn.style.visibility = "hidden";
-      printBtn.style.visibility = "hidden";
+      homeBtn.disabled = true;
+      reportBtn.disabled = true
+      webSiteBtn.disabled = true;
+      printBtn.disabled = true;
+      homeBtn.classList.add("hidden-button");
+      reportBtn.classList.add("hidden-button");
+      webSiteBtn.classList.add("hidden-button");
+      printBtn.classList.add("hidden-button");      
       break;
 
     case "/hello":
-      homeBtn.style.visibility = "visible";
-      reportBtn.style.visibility = "visible";
-      webSiteBtn.style.visibility = "hidden";
-      printBtn.style.visibility = "hidden";
+      homeBtn.disabled = false;
+      reportBtn.disabled = false;
+      webSiteBtn.disabled = true;
+      printBtn.disabled = true;
+      homeBtn.classList.remove("hidden-button");
+      reportBtn.classList.remove("hidden-button");
+      webSiteBtn.classList.add("hidden-button");
+      printBtn.classList.add("hidden-button");
       break;
 
     case "/report":
-      homeBtn.style.visibility = "visible";
-      reportBtn.style.visibility = "hidden";
-      webSiteBtn.style.visibility = "visible";
-      printBtn.style.visibility = "visible";
+      homeBtn.disabled = false;
+      reportBtn.disabled = true;
+      webSiteBtn.disabled = false;
+      printBtn.disabled = false;
+      homeBtn.classList.remove("hidden-button");
+      reportBtn.classList.add("hidden-button");
+      webSiteBtn.classList.remove("hidden-button");
+      printBtn.classList.remove("hidden-button");
       break;
 
     case "/404":
-      homeBtn.style.visibility = "visible";
-      reportBtn.style.visibility = "visible";
-      webSiteBtn.style.visibility = "visible";
-      printBtn.style.visibility = "hidden";
+      homeBtn.disabled = false;
+      reportBtn.disabled = false;
+      webSiteBtn.disabled = false;
+      printBtn.disabled = true;
+      homeBtn.classList.remove("hidden-button");
+      reportBtn.classList.remove("hidden-button");
+      webSiteBtn.classList.remove("hidden-button");
+      printBtn.classList.add("hidden-button");
       break;
   
     default:
