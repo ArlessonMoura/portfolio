@@ -14,22 +14,21 @@
     <title>CV Arlesson</title>
   </head>
 
-  <body>
+  <body class="light-mode">
 
-    <header>
-      <div class="set-square">
-        <nav>
-          <input id="home-menu" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\list-option.png" alt="home icon" value="/" onclick="route(); dynamicMenu()">
-      
-          <input id="hello" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\ux-ui.png" alt="go to website view" value="/hello" onclick="route(); dynamicMenu()">
-  
-          <input id="report" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\cv.png" alt="go to CV view" value="/report" onclick="route(); dynamicMenu()">
-        </nav>
-
-        <input class="icons-shaker dark-mode-btn md-icons" type="image" src="src\assets\img\night.png" alt="dark mode icon" onclick="darkMode()">
-      </div>
+    <header>      
+      <nav>
+        <input id="home-menu" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\list-option.png" alt="home icon" value="/" onclick="route(); dynamicMenu()">
     
-      <i id="print" class="fa-solid fa-xl fa-print icon-blur" title="print"></i>
+        <input id="hello" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\ux-ui.png" alt="go to website view" value="/hello" onclick="route(); dynamicMenu()">
+
+        <input id="report" class="icons-shaker icon-blur md-icons" type="image" src="src\assets\img\cv.png" alt="go to CV view" value="/report" onclick="route(); dynamicMenu()">
+      </nav>
+
+      <div class="side-options">
+        <input class="icons-shaker dark-mode-btn md-icons" type="image" src="src\assets\img\night.png" alt="dark mode icon" onclick="darkMode()">   
+        <i id="print" class="fa-solid fa-xl fa-print icon-blur" title="print"></i>
+      </div>
     </header>
 
     <main id="main-page">
