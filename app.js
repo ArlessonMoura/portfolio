@@ -1,14 +1,18 @@
+let dark = false;
+
 const darkMode = () => {
-  let darkMode = false;
   const bodyHtml = document.getElementById("body");
-  if (darkMode === false) {
+  if (!dark) {
     bodyHtml.classList.remove("light-mode");
-    bodyHtml.classList.add("dark-mode");    
-    return darkMode = true;
-  } if (darkMode === true) {
+    bodyHtml.classList.add("dark-mode");
+    dark = true;
+    return dark;
+  } 
+  if (dark) {
     bodyHtml.classList.remove("dark-mode");
-    bodyHtml.classList.add("light-mode"); 
-    return darkMode = false;
+    bodyHtml.classList.add("light-mode");
+    dark = false;
+    return dark;
   }
 }
 
