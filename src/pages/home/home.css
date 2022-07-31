@@ -1,11 +1,12 @@
 .lang{
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
 }
 
 .icons-xl{
   margin: 0 1rem;
-  max-width: 8rem;
-  max-height: 8rem;
+  max-width: 35%;
+  max-height: 35%;
 }
