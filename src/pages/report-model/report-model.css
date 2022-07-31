@@ -13,14 +13,25 @@ i{
 }
 
 /* MACRO DIAGRAM ELEMENT */
+
 .page{
+  width: 70%;
+  height: fit-content;
+  padding: 8rem 5rem 5rem 8rem;
+  margin: 1rem auto;
+  background-color: white;
+  box-shadow: -10px -10px grey;
+}
+
+
+/* .page{
   width: 210mm;
   height: 297mm;
   padding: 30mm 20mm 20mm 30mm;
   margin: 15mm auto;
   background-color: white;
   box-shadow: -10px -10px grey;
-}
+} */
 
 .major-side{
   width: 65%;
@@ -71,8 +82,3 @@ i{
   display: flex;
   flex-direction: column;
 }
-
-/* @page {
-  size: A4;
-  margin: 0;
-} */
