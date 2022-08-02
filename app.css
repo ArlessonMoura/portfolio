@@ -42,7 +42,7 @@ header{
   align-items: center;
 }
 
-body.hasHover .icons-shaker:hover {
+.icons-shaker:hover {
   animation: shake .9s;
   animation-iteration-count: infinite;
   cursor: pointer;
